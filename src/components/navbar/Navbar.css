@@ -1,0 +1,62 @@
+.navBody{
+    background-color: var(--primaryBackground);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 310px;
+    width: 1240px;
+    height: fit-content;
+    padding: 32px 0 32px 0;
+}
+
+.navLhs{
+    margin-left: 100px;
+}
+
+.navRhs {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.navUl a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    color: #2D2D2D;
+    line-height: 28px;
+    font-weight: var(--primaryFontWeight);
+}
+
+a:focus{
+    color: var(--primaryColor);
+}
+
+.mr{
+    margin-right: 20px;
+}
+
+.loginBtn{
+    background-color: #F8FBF8;
+    color: #367534;
+    border: 1px solid #367534;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 14px;
+    font-weight: var(--secondaryFontWeight);
+    line-height: 20px;
+}
+
+.appBtn{
+    color: white;
+    padding: 6px;
+    background-color: var(--primaryColor);
+    border: 1px solid var(--primaryColor);
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: var(--secondaryFontWeight);
+    line-height: 20px;
+}
