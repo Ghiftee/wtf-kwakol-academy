@@ -1,0 +1,12 @@
+:root {
+    --primaryColor:#51AF4E;
+    --primaryBackground: #E8E8E8;
+    --primaryFontWeight: 700;
+    --secondaryFontWeight: 500;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
