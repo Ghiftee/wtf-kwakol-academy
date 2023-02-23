@@ -1,8 +1,10 @@
 :root {
     --primaryColor:#51AF4E;
+    --secondaryColor: #2D2D2D;
     --primaryBackground: #E8E8E8;
     --primaryFontWeight: 700;
     --secondaryFontWeight: 500;
+    --thirdFontWeight: 400;
 }
 
 *{
