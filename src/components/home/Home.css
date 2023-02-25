@@ -93,7 +93,8 @@
 /* Get started section */
 
 .get-started{
-    background-color: #C2EECC;
+    background-image: url('../../images/get-started-phone.png');
+    background-size: cover;
     width:1440px;
     height: 522px;
 }
