@@ -1,10 +1,10 @@
 import './Home.css';
-import Star from '../../images/star.png';
-import Chart from '../../images/chart.png';
-import Folder from '../../images/files.png';
-import Chat from '../../images/chat.png';
-import Arrow from '../../images/bullseye.png';
-import Badge from '../../images/badge.png';
+import Star from '../../../images/star.png';
+import Chart from '../../../images/chart.png';
+import Folder from '../../../images/files.png';
+import Chat from '../../../images/chat.png';
+import Arrow from '../../../images/bullseye.png';
+import Badge from '../../../images/badge.png';
 
 function Study() {
   return (

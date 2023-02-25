@@ -1,8 +1,8 @@
 import React from 'react';
 import './Home.css';
-import firstPerson from '../../images/review-girl.png';
-import secondPerson from '../../images/review-man.png';
-import thirdPerson from '../../images/review-girl-2.png';
+import firstPerson from '../../../images/review-girl.png';
+import secondPerson from '../../../images/review-man.png';
+import thirdPerson from '../../../images/review-girl-2.png';
 
 function Reviews() {
   return (

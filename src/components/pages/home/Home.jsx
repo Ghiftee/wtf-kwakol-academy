@@ -1,5 +1,6 @@
-import Kwakol from '../../images/header-img.png';
+import Kwakol from '../../../images/header-img.png';
 import './Home.css'
+import Navbar from '../../navbar/Navbar';
 import Study from './Study';
 import Start from './Start';
 import Reviews from './Reviews';
@@ -8,6 +9,7 @@ import Footer from './Footer';
 function Home() {
   return (
     <div id='home'>
+      <Navbar />
       <div className='hero-section'>
         <div className='hero-section-lhs'>
           <h1>
