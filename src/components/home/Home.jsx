@@ -3,6 +3,7 @@ import './Home.css'
 import Study from './Study';
 import Start from './Start';
 import Reviews from './Reviews';
+import Footer from './Footer';
 
 function Home() {
   return (
@@ -28,6 +29,7 @@ function Home() {
       <Study />
       <Start />
       <Reviews />
+      <Footer />
     </div>
   )
 }
