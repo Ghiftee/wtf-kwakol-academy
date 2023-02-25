@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from '../../images/logo.png';
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -12,10 +13,10 @@ function Navbar() {
             <section className='navRhs'>
                 {/*this section would be refactored*/}
                 <ul className='navUl'>
-                    <a href='#home' className='mr'>Home</a>
-                    <a href='#about' className='mr'>About Us</a>
-                    <a href='#contact' className='mr'>Contact</a>
-                    <a href='#membership'>Become a member</a>            
+                    <Link to='/' className='mr'>Home</Link>
+                    <Link to='/about' className='mr'>About Us</Link>
+                    <Link to='/contact' className='mr'>Contact</Link>
+                    <Link to='/membership'>Become a member</Link>            
                 </ul>
                 <button className='loginBtn'>Login</button>
                 <button className='appBtn'>Get the App</button>
