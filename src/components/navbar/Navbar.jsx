@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from '../../images/logo.png';
 import './Navbar.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -13,10 +13,10 @@ function Navbar() {
             <section className='navRhs'>
                 {/*this section would be refactored*/}
                 <ul className='navUl'>
-                    <Link to='/' className='mr'>Home</Link>
-                    <Link to='/about' className='mr'>About Us</Link>
-                    <Link to='/contact' className='mr'>Contact</Link>
-                    <Link to='/membership'>Become a member</Link>            
+                    <NavLink to='/' style={({ isActive }) => ({color: isActive? 'var(--primaryColor)' : 'black'})} className='mr'>Home</NavLink>
+                    <NavLink to='/about' style={({ isActive }) => ({color: isActive? 'var(--primaryColor)' : 'black'})} className='mr'>About Us</NavLink>
+                    <NavLink to='/contact' style={({ isActive }) => ({color: isActive? 'var(--primaryColor)' : 'black'})} className='mr'>Contact</NavLink>
+                    <NavLink to='/membership' style={({ isActive }) => ({color: isActive? 'var(--primaryColor)' : 'black'})}>Become a member</NavLink>            
                 </ul>
                 <button className='loginBtn'>Login</button>
                 <button className='appBtn'>Get the App</button>
