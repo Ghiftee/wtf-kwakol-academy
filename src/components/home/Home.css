@@ -177,7 +177,7 @@
     flex-direction: column;
     align-items: center;
     height: 692px;
-    width: 1440px;
+    /* width: 1440px; */
 }
 
 .footer-h2{
