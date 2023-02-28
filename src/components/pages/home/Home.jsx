@@ -8,7 +8,7 @@ import Footer from './Footer';
 
 function Home() {
   return (
-    <div id='home'>
+    <div>
       <Navbar />
       <div className='hero-section'>
         <div className='hero-section-lhs'>

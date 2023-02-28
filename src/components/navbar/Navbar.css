@@ -1,13 +1,8 @@
-.navBody{
-    background-color: var(--primaryBackground);
-}
-
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 310px;
-    padding: 32px 0 32px 0;
 }
 
 .navLhs{

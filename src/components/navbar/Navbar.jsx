@@ -1,11 +1,11 @@
 import React from 'react';
 import Logo from '../../images/logo.png';
 import './Navbar.css';
-import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom'; 
 
-function Navbar() {
+function Navbar(props) {
   return (
-    <div className='navBody'>
+    <div style={{backgroundColor: props.backgroundColor || 'var(--primaryBackground)', padding: props.padding || '32px 0'}}>
         <nav className='navbar'>
             <section className='navLhs'>
                 <img src={Logo} alt="logo" />
