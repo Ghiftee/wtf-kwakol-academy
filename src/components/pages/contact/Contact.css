@@ -1,0 +1,112 @@
+.contact-section{
+    background-color: #c2eecc;
+}
+
+.contact-puzzle{
+    height: 793px;
+    background-image: url('../../../images/puzzle.png');
+    background-repeat: no-repeat;
+}
+
+.contact-puzzle-text{
+    position: relative;
+    text-align: center;
+    top: 140px;
+}
+
+.contact-puzzle-text-h2{
+    height: 62px;
+    font-weight: var(--primaryFontWeight);
+    font-size: 56px;
+    line-height: 61.6px;
+    color: var(--secondaryColor);
+}
+
+.contact-puzzle-text-p-1{
+    height: 80px;
+    font-weight: var(--primaryFontWeight);
+    font-size: 24px;
+    line-height: 26.4px;
+    color: #5f5f5f;
+    margin: 30px;
+}
+
+.contact-puzzle-text-h3{
+    height: 44px;
+    font-weight: var(--primaryFontWeight);
+    font-size: 40px;
+    line-height: 44px;
+    color: var(--secondaryColor);
+}
+
+.contact-puzzle-text-p-2{
+    height: 27px;
+    font-weight: var(--primaryFontWeight);
+    font-size: 24px;
+    line-height: 26.4px;
+    color: #5f5f5f;
+}
+
+.mb{
+    margin-bottom: 50px;
+}
+
+.contact-puzzle-span{
+    position: relative;
+    top: 220px;
+    left: 516px;
+    font-size: 24px;
+    font-weight: var(--primaryFontWeight);
+    color: #5f5f5f;
+    line-height: 26.4px;
+}
+
+.contact-form-p{
+    width: 478px;
+    height: 27px;
+    font-weight: var(--primaryFontWeight);
+    color: var(--secondaryColor);
+    line-height: 26.4px;
+    margin: 0 0 50px 100px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    padding: 0 103px;
+    gap: 20px;
+}
+
+.contact-form-input{
+    height: 120px;
+    border: none;
+    border-radius: 15px;
+}
+
+.contact-form-label {
+    height: 22px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+    color: var(--secondaryColor);
+}
+
+.contact-form-textArea{
+    height: 565px;
+    border: none;
+    border-radius: 15px;
+}
+
+.contact-form-btn{
+    position: relative;
+    width: 415px;
+    height: 60px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: var(--primaryFontWeight);
+    background-color: var(--primaryColor);
+    left: 400px;
+    margin: 70px 0 200px;
+}
