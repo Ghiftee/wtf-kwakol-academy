@@ -40,7 +40,7 @@ function Reviews() {
             </section>
             <section className='reviews-box'>
                 <section className='reviews-heading'>
-                    <p className='reviews-heading-p-1'>Jenny Wilson</p>
+                    <p className='reviews-heading-p-1'>Esther Howard</p>
                     <img src={thirdPerson} alt='lady-2' className='reviews-img'/>
                 </section>
                 <p className='reviews-heading-p-2'>
