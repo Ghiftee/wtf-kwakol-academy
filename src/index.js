@@ -19,3 +19,4 @@ root.render(
 //The issue with hash router is that it gives a hash in the app path e.g localhost:3000/#/contact
 //To remove the hash so that it becomes localhost:3000/contact, we use browser router
 // According to chatGPT, using basename in the browserrouter component as used above should fix the 404 error
+//Using basename though adds the basename to your localhost path so it becomes localhost:3000/wtf-kwakol-academy/contact
