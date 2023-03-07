@@ -1,0 +1,111 @@
+.membership-page{
+    background: #c2eecc;
+}
+
+.plans-heading{
+    height: 285px;
+    border-radius: 15px;
+    background: linear-gradient(#51af4e, rgba(16, 35, 16, 0.3012));
+    margin: 50px 70px 0;
+}
+
+.plans-text{
+    text-align: center;
+    width: 550px;
+    height: 88px;
+    position: relative;
+    top: 104px;
+    left: 349px;
+    font-size: 40px;
+    line-height: 44px;
+    color: #fff;
+    font-weight: var(--primaryFontWeight);
+}
+
+.plans-options{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 45px;
+}
+
+.plans-boxes{
+    width: 392px;
+    height: 927px;
+    border-radius: 15px;
+    background-color: #fff;
+    /* box-shadow: 4px 4px 6px #006FD5; */
+    margin: 58px 20px;
+}
+
+.plans-heading-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plans-type{
+    color: #5f5f5f;
+    height: 36px;
+    margin: 20px;
+    font-size: 32px;
+    font-weight: var(--primaryFontWeight);
+    line-height: 35.2px;
+}
+
+.plans-prices{
+    height: 44px;
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: var(--primaryFontWeight);
+    color: var(--secondaryColor);
+    margin-bottom: 20px;
+}
+
+.sign-up{
+    width: 125px;
+    height: 43px;
+    padding: 8px 16px;
+    border-radius: 15px;
+    border: 1px solid #c5e4c4;
+    background-color: #f8fbf8;
+    font-size: 24px;
+    line-height: 26.4px;
+    font-weight: var(--primaryFontWeight);
+    color: var(--primaryColor);
+}
+
+.upgrade-btn{
+    width: 133px;
+    height: 42px;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 16px;
+    background-color: var(--primaryColor);
+    color: #fff;
+    font-size: 24px;
+    font-weight: var(--primaryFontWeight);
+    line-height: 26.4px;
+}
+
+.plans-description-container{
+    margin: 35px;
+}
+
+.plans-description-individual-container{
+    display: flex;
+    align-items: center;
+    /* gap: 7px; */
+}
+
+.plans-description-img{
+    margin: 15px;
+}
+
+.plans-description{
+    width: 241px;
+    height: 26px;
+    font-size: 18px;
+    color: var(--secondaryColor);
+    font-weight: var(--primaryFontWeight);
+    line-height: 25.2px;
+}
