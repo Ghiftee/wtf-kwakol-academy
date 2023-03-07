@@ -33,7 +33,6 @@
     height: 927px;
     border-radius: 15px;
     background-color: #fff;
-    /* box-shadow: 4px 4px 6px #006FD5; */
     margin: 58px 20px;
 }
 
@@ -94,7 +93,6 @@
 .plans-description-individual-container{
     display: flex;
     align-items: center;
-    /* gap: 7px; */
 }
 
 .plans-description-img{
