@@ -1,9 +1,13 @@
 import React from 'react';
 import Logo from '../../images/logo.png';
 import './Navbar.css';
-import { NavLink } from 'react-router-dom'; 
+import { NavLink, useNavigate } from 'react-router-dom'; 
 
 function Navbar(props) {
+    const navigate = useNavigate();
+    const navigateToLoginPage = () => {
+        navigate('/login')
+    }
   return (
     <div style={{backgroundColor: props.backgroundColor || 'var(--primaryBackground)', padding: props.padding || '32px 0'}}>
         <nav className='navbar'>
@@ -19,7 +23,7 @@ function Navbar(props) {
                     <NavLink to='/contact' style={({ isActive }) => ({color: isActive? 'var(--primaryColor)' : 'black'})} className='mr'>Contact</NavLink>
                     <NavLink to='/membership' style={({ isActive }) => ({color: isActive? 'var(--primaryColor)' : 'black'})}>Become a member</NavLink>            
                 </ul>
-                <button className='loginBtn'>Login</button>
+                <button onClick={navigateToLoginPage} className='loginBtn'>Login</button>
                 <button className='appBtn'>Get the App</button>
             </section>
         </nav>

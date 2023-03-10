@@ -3,16 +3,20 @@ import Home from './components/pages/home/Home';
 import About from './components/pages/about/About';
 import Contact from './components/pages/contact/Contact';
 import Members from './components/pages/membership/Members';
+import Login from './components/pages/login/Login';
+import Signup from './components/pages/signup/Signup.jsx';
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-    <Routes>
+      <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/membership' element={<Members />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/signUp' element={<Signup />} />
       </Routes>
     </div>
   );

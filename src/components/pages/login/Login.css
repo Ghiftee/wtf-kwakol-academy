@@ -1,0 +1,169 @@
+.back-arrow{
+    margin: 50px 120px 0;
+}
+
+.login-container{
+    display: flex;
+    margin: 50px 90px 50px 60px;
+}
+
+.logo-section{
+    width: 399px;
+    height: 820px;
+    background-color: #305749;
+    border-radius: 0 20px 20px 0;
+    position: relative;
+    left: 50px;
+}
+
+.logo-section-lhs{
+   position: relative;
+   top: 220px;
+   left: 25px;
+}
+
+.login-form-container{
+    width: 1230px;
+    height: 820px;
+    background-color: #a8d7a6;
+    border-radius: 20px;
+}
+
+.login-intro-text{
+    height: 36px;
+    text-align: center;
+    font-size: 32px;
+    color: var(--secondaryColor);
+    font-weight: var(--primaryFontWeight);
+    line-height: 35.2px;
+    padding-top: 50px;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 200px;
+}
+
+.input-text{
+    width: 136px;
+    font-size: 18px;
+    color: var(--secondaryColor);
+    font-weight: var(--primaryFontWeight);
+    margin: 20px 0;
+}
+
+.input-field{
+    width: 500px;
+    height: 36px;
+    border-radius: 15px;
+    opacity: 63%;
+    background-color: #f8fbf8;
+    border: none;
+}
+
+.pwdRecoverySection{
+    display: flex;
+    gap: 221px;
+    align-items: center;
+    width: 484px;
+    height: 26px;
+    margin: 10px 0 50px;
+}
+
+.remember-checkbox-section{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    line-height: 19.6px;
+    color: var(--secondaryColor);
+    font-weight: 400;
+}
+
+.pwd-section{
+    width: 148px;
+    height: 26px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25.2px;
+    font-weight: var(--primaryFontWeight);
+    color: #51af4e;
+   
+}
+
+.signInBtn{
+    width: 500px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    padding: 16px 32px;
+    background-color: #f8fbf8;
+    font-weight: var(--primaryFontWeight);
+    color: var(--primaryColor);
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.newUserSection{
+    display: flex;
+    justify-content: center;
+    width: 496px;
+    height: 26px;
+    gap: 128px;
+    padding: 0 200px;
+    margin-bottom: 70px;
+}
+
+.newUserP{
+    color: var(--secondaryColor);
+    font-weight: var(--primaryFontWeight);
+    font-size: 18px;
+    line-height: 25.2px;
+}
+
+.newUserLink{
+    text-decoration: none;
+    color: var(--primaryColor);
+    font-weight: var(--primaryFontWeight);
+    font-size: 18px;
+    line-height: 25.2px;
+}
+
+.intersection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.intersectionImg{
+    width: 355px;
+    height: 2px;
+}
+
+.intersectionText{
+    width: 24px;
+    height: 28px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: var(--primaryFontWeight);
+    color: var(--secondaryColor);
+}
+
+.signUpBtn{
+    width: 286px;
+    height: 60px;
+    border-radius: 15px;
+    padding: 16px 32px;
+    background-color: var(--primaryColor);
+    border: 1px solid #fff;
+    color: white;
+    font-size: 20px;
+    font-weight: var(--primaryFontWeight);
+    line-height: 28px;
+    margin: 50px 330px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
