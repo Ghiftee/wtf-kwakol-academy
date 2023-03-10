@@ -60,6 +60,7 @@
     opacity: 63%;
     background-color: #f8fbf8;
     border: none;
+    padding: 10px;
 }
 
 .pwdRecoverySection{
@@ -89,7 +90,6 @@
     line-height: 25.2px;
     font-weight: var(--primaryFontWeight);
     color: #51af4e;
-   
 }
 
 .signInBtn{
@@ -103,6 +103,20 @@
     color: var(--primaryColor);
     font-size: 20px;
     line-height: 28px;
+}
+
+.continueBtn{
+    width: 234px;
+    height: 54px;
+    border-radius: 15px;
+    padding: 16px 32px;
+    border: none;
+    color: var(--primaryColor);
+    background-color: #f8fbf8;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    margin: 40px 165px 30px;
 }
 
 .newUserSection{
