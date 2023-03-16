@@ -1,0 +1,74 @@
+.get-app{
+    background-color: var(--primaryBackground);
+    height: 1000px;
+}
+
+.app-info-section{
+    background-color: var(--primaryColor);
+    height: 468px;
+    border-radius: 10px;
+    margin: 100px;
+    display: flex;
+    gap: 150px;
+}
+
+.app-phone-view{
+    position: relative;
+    bottom: 130px;
+    left: 100px;
+    width: 509px;
+    height: 697px;
+}
+
+.get-started-section{
+    padding-top: 100px;
+}
+
+.get-started-p{
+    width: 323px;
+    height: 44px;
+    font-weight: var(--primaryFontWeight);
+    font-size: 40px;
+    line-height: 44px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.get-started-info{
+    width: 383px;
+    height: 76px;
+    font-size: 18px;
+    font-weight: var(--thirdFontWeight);
+    color: #fff;
+    line-height: 25.2px;
+}
+
+.download-section{
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.google-play-section{
+    display: flex;
+    gap: 5px;
+    background-color: white;
+    width: 180px;
+    height: 46px;
+    border-radius: 4px;
+    padding: 4px 10px;
+}
+
+.download-p{
+    font-size: 14px;
+    font-weight: var(--secondaryFontWeight);
+    color: var(--secondaryColor);
+    line-height: 20px;
+}
+
+.download-location{
+    font-size: 20px;
+    font-weight: var(--primaryFontWeight);
+    color: var(--secondaryColor);
+    line-height: 20px;
+}
