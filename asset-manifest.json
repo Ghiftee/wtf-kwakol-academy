@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/wtf-kwakol-academy/static/css/main.650e787a.css",
-    "main.js": "/wtf-kwakol-academy/static/js/main.fbeafa0b.js",
+    "main.css": "/wtf-kwakol-academy/static/css/main.4fb946a1.css",
+    "main.js": "/wtf-kwakol-academy/static/js/main.759222b6.js",
     "static/media/get-started-phone.png": "/wtf-kwakol-academy/static/media/get-started-phone.7cf0b8ae4882a5204c09.png",
     "static/media/header-img.png": "/wtf-kwakol-academy/static/media/header-img.e08fa5b19d8aac2b0bbf.png",
     "static/media/kwakol-community.png": "/wtf-kwakol-academy/static/media/kwakol-community.03eaae40a0b0bb2b37bf.png",
     "static/media/joseph.png": "/wtf-kwakol-academy/static/media/joseph.2db44a08857ad02a1340.png",
     "static/media/yakubu.png": "/wtf-kwakol-academy/static/media/yakubu.2fb203486df99784543f.png",
+    "static/media/phone.png": "/wtf-kwakol-academy/static/media/phone.55c2f79b0686c33030c6.png",
     "static/media/titilayo.png": "/wtf-kwakol-academy/static/media/titilayo.e8b395c6f360c3f74806.png",
     "static/media/bashir.png": "/wtf-kwakol-academy/static/media/bashir.cce514ddb43f0b385b84.png",
     "static/media/map.png": "/wtf-kwakol-academy/static/media/map.69e0f3e75ba956225b97.png",
     "static/media/logoNname.png": "/wtf-kwakol-academy/static/media/logoNname.88ca894ada93b37687c2.png",
     "static/media/puzzle.png": "/wtf-kwakol-academy/static/media/puzzle.45360651c737fc7b1864.png",
     "index.html": "/wtf-kwakol-academy/index.html",
-    "main.650e787a.css.map": "/wtf-kwakol-academy/static/css/main.650e787a.css.map",
-    "main.fbeafa0b.js.map": "/wtf-kwakol-academy/static/js/main.fbeafa0b.js.map"
+    "main.4fb946a1.css.map": "/wtf-kwakol-academy/static/css/main.4fb946a1.css.map",
+    "main.759222b6.js.map": "/wtf-kwakol-academy/static/js/main.759222b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.650e787a.css",
-    "static/js/main.fbeafa0b.js"
+    "static/css/main.4fb946a1.css",
+    "static/js/main.759222b6.js"
   ]
 }
