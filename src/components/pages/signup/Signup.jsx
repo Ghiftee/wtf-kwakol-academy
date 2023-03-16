@@ -9,7 +9,7 @@ import '../login/Login.css';
 function Signup() {
   const navigate = useNavigate();
   const goBack = () => {
-    navigate('/')
+    navigate('/login')
   }
   return (
     <div>
