@@ -1,112 +1,166 @@
-.contact-section{
-    background-color: #c2eecc;
+/* Clean up repetitions */
+.kwakol-contact{
+    background-color: var(--primaryBackground);
 }
 
-.contact-puzzle{
-    height: 793px;
-    background-image: url('../../../images/puzzle.png');
-    background-repeat: no-repeat;
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 95px;
 }
 
-.contact-puzzle-text{
-    position: relative;
-    text-align: center;
-    top: 140px;
-}
+.contact-page > *:not(.contact-img) {
+    padding: 0px;
+  }
 
-.contact-puzzle-text-h2{
+.contact-page-title{
+    width: 179px;
     height: 62px;
-    font-weight: var(--primaryFontWeight);
-    font-size: 56px;
-    line-height: 61.6px;
     color: var(--secondaryColor);
-}
-
-.contact-puzzle-text-p-1{
-    height: 80px;
     font-weight: var(--primaryFontWeight);
-    font-size: 24px;
-    line-height: 26.4px;
-    color: #5f5f5f;
-    margin: 30px;
+    font-size: 32px;
+    line-height: 61.6px;
+    margin-bottom: 10px;
 }
 
-.contact-puzzle-text-h3{
+.contact-img {
+    position: relative;
+    width: 1235px;
+    left: 106px;
+}
+
+.contacts-section {
+    display: flex;
+    gap: 170px;
+    margin: 80px 0 200px;
+}
+
+.address-heading{
+    width: 101px;
     height: 44px;
     font-weight: var(--primaryFontWeight);
-    font-size: 40px;
+    font-size: 24px;
     line-height: 44px;
-    color: var(--secondaryColor);
 }
 
-.contact-puzzle-text-p-2{
-    height: 27px;
+.address-text{
+    width: 295px;
+    height: 80px;
+    font-weight: var(--thirdFontWeight);
+    font-size: 20px;
+    line-height: 26.4px;
+}
+
+.contact-heading{
+    width: 96px;
+    height: 44px;
     font-weight: var(--primaryFontWeight);
+    font-size: 24px;
+    line-height: 44px;
+}
+
+.contact-details{
+    width: 295px;
+    height: 47px;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 23.4px;
+}
+
+.operations{
+    width: 198px;
+    height: 44px;
+    font-weight: var(--primaryFontWeight);
+    font-size: 24px;
+    line-height: 44px;
+}
+
+.operations-hour{
+    width: 295px;
+    height: 53px;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 26.4px;
+}
+
+.intersection{
+    text-align: center;
+    height: 80px;
+    font-weight: var(--thirdFontWeight);
     font-size: 24px;
     line-height: 26.4px;
     color: #5f5f5f;
-}
-
-.mb{
     margin-bottom: 50px;
 }
 
-.contact-puzzle-span{
-    position: relative;
-    top: 220px;
-    left: 516px;
-    font-size: 24px;
-    font-weight: var(--primaryFontWeight);
-    color: #5f5f5f;
-    line-height: 26.4px;
+.form-first-section{
+  display: flex;
+  gap: 97px;
 }
 
-.contact-form-p{
-    width: 478px;
-    height: 27px;
-    font-weight: var(--primaryFontWeight);
-    color: var(--secondaryColor);
-    line-height: 26.4px;
-    margin: 0 0 50px 100px;
-}
-
-.contact-form{
+.input-section{
     display: flex;
     flex-direction: column;
-    padding: 0 103px;
-    gap: 20px;
+}
+
+.contact-form-top-label{
+    width: 64px;
+    height: 22px;
+    font-weight: var(--thirdFontWeight);
+    font-size: 24px;
+    line-height: 22px;
+    letter-spacing: 1%;
+    color: var(--secondaryColor);
+    margin-bottom: 15px;
 }
 
 .contact-form-input{
-    height: 120px;
+    width: 567px;
+    height: 89px;
+    background-color: #fff;
     border: none;
-    border-radius: 15px;
+    margin-bottom: 25px;
 }
 
-.contact-form-label {
+.form-second-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-bottom-label{
+    width: 80px;
     height: 22px;
-    font-size: 20px;
-    font-weight: 600;
+    font-weight: var(--thirdFontWeight);
+    font-size: 24px;
     line-height: 22px;
     color: var(--secondaryColor);
+    margin-bottom: 20px;
+}
+
+.contact-form-subject-input{
+    width: 1239px;
+    height: 89px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border: none;
 }
 
 .contact-form-textArea{
-    height: 565px;
+    width: 1239px;
+    height: 300px;
+    background-color: #fff;
     border: none;
-    border-radius: 15px;
 }
 
 .contact-form-btn{
-    position: relative;
-    width: 415px;
-    height: 60px;
+    width: 265px;
+    height: 89px;
     border: none;
     color: white;
-    font-size: 20px;
-    line-height: 28px;
-    font-weight: var(--primaryFontWeight);
+    font-size: 24px;
+    line-height: 22px;
+    font-weight: 600;
     background-color: var(--primaryColor);
-    left: 400px;
     margin: 70px 0 200px;
 }
