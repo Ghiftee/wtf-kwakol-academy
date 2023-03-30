@@ -22,7 +22,7 @@ function Home() {
             our comprehensive forex trading <br /> 
             courses, for all levels.
           </p>
-          <button>Enroll Now</button>
+          <button>Get Started</button>
         </div>
         <div>
           <img src={Kwakol} alt='kwakol-people' className='hero-section-img'/>
