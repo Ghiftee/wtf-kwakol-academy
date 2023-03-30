@@ -5,10 +5,11 @@
     --primaryFontWeight: 700;
     --secondaryFontWeight: 500;
     --thirdFontWeight: 400;
+    --primaryFontFamily: 'Gelasio', serif;
+    --secondaryFontFamily: 'Poppins', sans-serif;
 }
 
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Inter', sans-serif;
 }

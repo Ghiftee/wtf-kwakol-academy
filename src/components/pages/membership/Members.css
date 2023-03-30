@@ -21,6 +21,7 @@
     position: relative;
     top: 72px;
     left: 244px;
+    font-family: var(--secondaryFontFamily);
 }
 
 .plans-options{
@@ -53,6 +54,7 @@
     font-size: 32px;
     font-weight: 600;
     line-height: 35.2px;
+    font-family: var(--primaryFontFamily);
 }
 
 .plans-prices{
@@ -60,6 +62,7 @@
     font-size: 36px;
     line-height: 44px;
     font-weight: var(--primaryFontWeight);
+    font-family: var(--secondaryFontFamily);
     color: var(--secondaryColor);
     margin-bottom: 20px;
 }
@@ -98,4 +101,5 @@
     color: var(--secondaryColor);
     font-weight: var(--primaryFontWeight);
     line-height: 25.2px;
+    font-family: var(--secondaryFontFamily);
 }
