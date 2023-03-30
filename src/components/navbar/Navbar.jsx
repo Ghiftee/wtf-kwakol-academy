@@ -8,8 +8,8 @@ function Navbar(props) {
     const navigateToLoginPage = () => {
         navigate('/login')
     }
-    const navigateToGetAppPage = () => {
-        navigate('/gettheapp')
+    const navigateToSignUpPage = () => {
+        navigate('/signUp')
     }
   return (
     <div>
@@ -27,7 +27,7 @@ function Navbar(props) {
                     <NavLink to='/membership' style={({ isActive }) => ({color: isActive? 'var(--primaryColor)' : 'black'})}>Become a member</NavLink>            
                 </ul>
                 <button onClick={navigateToLoginPage} className='loginBtn'>Login</button>
-                <button onClick={navigateToGetAppPage} className='appBtn'>Get the App</button>
+                <button onClick={navigateToSignUpPage} className='appBtn'>Sign Up</button>
             </section>
         </nav>
     </div>

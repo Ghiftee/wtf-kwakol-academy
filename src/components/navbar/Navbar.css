@@ -30,10 +30,12 @@
 }
 
 .loginBtn{
-    background-color: #F8FBF8;
+    background-color: #f5f5f5;
     color: #367534;
-    border: 1px solid #367534;
+    border: 1px solid #03781d;
     border-radius: 5px;
+    width: 111px;
+    height: 40px;
     padding: 6px;
     font-size: 14px;
     font-weight: var(--secondaryFontWeight);
@@ -43,7 +45,9 @@
 .appBtn{
     color: white;
     padding: 6px;
-    background-color: var(--primaryColor);
+    width: 111px;
+    height: 40px;
+    background-color: #12a454;
     border: 1px solid var(--primaryColor);
     border-radius: 5px;
     font-size: 14px;
