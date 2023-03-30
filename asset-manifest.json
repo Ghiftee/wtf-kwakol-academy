@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wtf-kwakol-academy/static/css/main.489d3c7d.css",
-    "main.js": "/wtf-kwakol-academy/static/js/main.79f0fff3.js",
+    "main.css": "/wtf-kwakol-academy/static/css/main.afa47cc8.css",
+    "main.js": "/wtf-kwakol-academy/static/js/main.7d538c7a.js",
     "static/media/get-started-phone.png": "/wtf-kwakol-academy/static/media/get-started-phone.7cf0b8ae4882a5204c09.png",
     "static/media/contact-person.png": "/wtf-kwakol-academy/static/media/contact-person.a8065ac7640b4abd3090.png",
     "static/media/header-img.png": "/wtf-kwakol-academy/static/media/header-img.e08fa5b19d8aac2b0bbf.png",
@@ -14,11 +14,11 @@
     "static/media/map.png": "/wtf-kwakol-academy/static/media/map.69e0f3e75ba956225b97.png",
     "static/media/logoNname.png": "/wtf-kwakol-academy/static/media/logoNname.88ca894ada93b37687c2.png",
     "index.html": "/wtf-kwakol-academy/index.html",
-    "main.489d3c7d.css.map": "/wtf-kwakol-academy/static/css/main.489d3c7d.css.map",
-    "main.79f0fff3.js.map": "/wtf-kwakol-academy/static/js/main.79f0fff3.js.map"
+    "main.afa47cc8.css.map": "/wtf-kwakol-academy/static/css/main.afa47cc8.css.map",
+    "main.7d538c7a.js.map": "/wtf-kwakol-academy/static/js/main.7d538c7a.js.map"
   },
   "entrypoints": [
-    "static/css/main.489d3c7d.css",
-    "static/js/main.79f0fff3.js"
+    "static/css/main.afa47cc8.css",
+    "static/js/main.7d538c7a.js"
   ]
 }
