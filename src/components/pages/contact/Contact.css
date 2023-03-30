@@ -10,10 +10,6 @@
     padding: 40px 95px;
 }
 
-.contact-page > *:not(.contact-img) {
-    padding: 0px;
-  }
-
 .contact-page-title{
     width: 179px;
     height: 62px;
@@ -26,7 +22,6 @@
 }
 
 .contact-img {
-    position: relative;
     width: 1235px;
     left: 106px;
 }

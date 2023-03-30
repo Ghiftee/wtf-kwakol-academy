@@ -1,6 +1,7 @@
 .get-app{
     background-color: var(--primaryBackground);
     height: 1300px;
+    font-family: 'Inter', sans-serif;
 }
 
 .app-info-section{

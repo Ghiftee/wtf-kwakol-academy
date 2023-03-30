@@ -1,3 +1,7 @@
+.about {
+    font-family: 'Inter', sans-serif;
+}
+
 .vision{
     background: linear-gradient(#51af4e 75.2% , rgba(16, 35, 16, 0.3012));
     height: 468px;
