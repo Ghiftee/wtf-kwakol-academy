@@ -2,76 +2,74 @@ import './Home.css';
 import Cap from '../../../images/graduation-cap.png';
 import FirstCircle from '../../../images/outer-layer.png';
 import SecondCircle from '../../../images/inner-layer.png';
-// import Book from '../../../images/book.png';
-// import Teacher from '../../../images/teach.png';
-// import World from '../../../images/tabler_world.png';
-// import Mind from '../../../images/mind.png';
-// import Certified from '../../../images/badge1.png';
+import Book from '../../../images/book.png';
+import Teacher from '../../../images/teach.png';
+import World from '../../../images/tabler_world.png';
+import Mind from '../../../images/mind.png';
+import Certified from '../../../images/badge1.png';
 
+function StudySectionGroupPart({ img, alt, header, body }) {
+    return (
+        <section className='study-section-group-parts'>
+            <div className='study-section-group-image'>
+                <img src={FirstCircle} alt='icon-bg-1' className='icon-bg-1'/>
+                <img src={SecondCircle} alt='icon-bg-2' className='icon-bg-2'/>
+                <img src={img} alt={alt} className='cap-img'/>
+            </div>
+            <p className='study-section-group-parts-title'>{header}</p>
+            <p className='study-section-group-parts-info'>
+                {body}
+            </p>
+        </section>
+    );
+}
 
 function Study() {
   return (
     <div className='study-section'>
-        <p className='study-section-title'>Why study with us today</p>
-            {/*Would be refactored*/}
-            <section className='study-section-group'>
-                <section className='study-section-group-parts'>
-                    <div>
-                        <img src={FirstCircle} alt='icon-bg-1' className='icon-bg-1'/>
-                        <img src={SecondCircle} alt='icon-bg-2' className='icon-bg-2'/>
-                        <img src={Cap} alt='graduation cap' className='cap-img'/>
-                    </div>
-                    <p className='study-section-group-parts-title'>Comprehensive content</p>
-                    <p className='study-section-group-parts-info'>
-                        Our courses cover all key topics you <br/>
-                        need to learn to trade effectively.
-                    </p>
-                </section>
-                <section className='study-section-group-parts'>
-                    
-                    <p className='study-section-group-parts-title'>Easy to learn</p>
-                    <p className='study-section-group-parts-info'>
-                        We've condensed content into bite- <br/>
-                        sized courses for your convenience.
-                    </p>
-                </section>
-                <section className='study-section-group-parts'>
-                    
-                    <p className='study-section-group-parts-title'>Live Classes</p>
-                    <p className='study-section-group-parts-info'>
-                        We offer regular live classes to keep <br/>
-                        you updated on the latest trades.
-                    </p>
-                </section>
-            </section>
-            <section className='study-section-group'>
-                <section className='study-section-group-parts'>
-                    
-                    <p className='study-section-group-parts-title'>Active community</p>
-                    <p className='study-section-group-parts-info'>
-                        Benefit from your peers as well as <br/>
-                        your tutors in our community.
-                    </p>
-                </section>
-                <section className='study-section-group-parts'>
-                    
-                    <p className='study-section-group-parts-title'>Learn from experts</p>
-                    <p className='study-section-group-parts-info'>
-                        Benefit from your peers as well as <br/>
-                        your tutors in our community.
-                    </p>
-                </section>
-                <section className='study-section-group-parts'>
-                    
-                    <p className='study-section-group-parts-title'>Get certified</p>
-                    <p className='study-section-group-parts-info'>
-                        Receive official certification from us <br/>
-                        and share on LinkedIn.
-                    </p>
-                </section>
-            </section>
+        <h3 className='study-section-title'>Why study with us today</h3>
+        <section className='study-section-group'>
+            <StudySectionGroupPart
+                img={Cap}
+                alt="Cap image"
+                header="Comprehensive content"
+                body="Our courses cover all key topics you need to learn to trade effectively."
+            />
+            <StudySectionGroupPart
+                img={Book}
+                alt="Book image"
+                header="Easy to learn"
+                body="We've condensed content into bite-sized courses for your convenience."
+            />
+            <StudySectionGroupPart
+                img={Teacher}
+                alt="Teacher image"
+                header="Live Classes"
+                body="We offer regular live classes to keep you updated on the latest trades."
+            />
+        </section>
+        <section className='study-section-group'>
+            <StudySectionGroupPart
+                img={World}
+                alt="World image"
+                header="Active community"
+                body="Benefit from your peers as well as your tutors in our community."
+            />
+            <StudySectionGroupPart
+                img={Mind}
+                alt="Mind image"
+                header="Learn from experts"
+                body="Benefit from your peers as well as your tutors in our community."
+            />
+            <StudySectionGroupPart
+                img={Certified}
+                alt="Certified image"
+                header="Get certified"
+                body="Receive official certification from us and share on LinkedIn"
+            />
+        </section>
     </div>
-  )
+  );
 }
 
 export default Study;
