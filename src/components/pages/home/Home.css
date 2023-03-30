@@ -277,7 +277,6 @@
 
 .get-app-inner-section{
     background-image: url('../../../images/get-app-bg.png');
-    border: 2px solid red;
     height: 511px;
     display: flex;
     align-items: center;
